@@ -1,6 +1,6 @@
 # Hartville Hardware HTML Development Toolkit
 
-This toolkit is intended to help web developers write html and css that will be compatible with Hartville Hardware's current stylesheet. This readme contains a few notes for creating html and css that can be easily incorporated into our system.
+This toolkit is intended to help web developers write html and css that will be compatible with Hartville Hardware's current stylesheet and web platform. This readme contains a few notes for creating html and css that can be easily incorporated into our system.
 
 ## Custom HTML
 custom markup should go in `index.html` inside the content div:
@@ -39,8 +39,7 @@ The following is an example of a multi-column layout that is supported in the cu
 ```
 
 ## Images
-project images should be placed in a project specific folder underneath `/
-images/campaigns`.
+project images should be placed in a project specific folder underneath `/images/campaigns`.
 
 Images can be optimized using free online services such as:
 +[tinypng](https://tinypng.com/)
@@ -49,11 +48,11 @@ Images can be optimized using free online services such as:
 Image urls must be local, external image urls are not supported in our shopping cart platform.
 
 ## CSS & Javascript
-project specific css should go in `css/main.css`.
+project specific css should go in `/css/main.css`.
 
-project specific js should go in `downloads/js/main.js`.
+project specific js should go in `/downloads/js/main.js`.
 
 ## Fonts
-if your project requires custom fonts, we support either Typekit fonts or custom web fonts can be placed in `/downloads/fonts` and referenced in the stylesheet.
+if your project requires custom fonts, we support either Typekit fonts or custom web fonts can be placed in `/downloads/fonts/` and referenced in the stylesheet.
 
 
