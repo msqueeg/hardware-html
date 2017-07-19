@@ -1,0 +1,149 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+#sealy {
+	color: white;
+	font-family: "hypatia-sans-pro", Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	width: 998px;
+	height: 1536px;
+    margin-left: -19px;
+}
+
+#sealy a {
+	text-decoration: none;
+	color: white;
+}
+
+
+#sealy h1, #sealy h2 {
+	font-family: "hypatia-sans-pro", Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: 600;
+	color: white;
+	margin: 0;
+}
+
+#sealy h1 {
+	padding: .5em;
+	line-height: 1;
+	font-size: 4.5em;	
+}
+
+#sealy h2 {
+	font-size: 3.9em;
+}
+
+#sealy p {
+	margin: 0;
+	padding: 0;
+}
+
+#sealy-header, #sealy-middle, #sealy-footer {
+	background-color: black;
+	width: 100%;
+}
+
+#sealy-middle {
+	padding: 20px 0;
+	text-align: center;
+}
+
+#sealy-middle p {
+	font-size: 1.25em;
+}
+
+#sealy-header {
+	background: url(../images/campaigns/sealy/2017_7_6-Sealy_Tempur-page-top_01.gif) no-repeat;
+  	background-size: 100%;
+}
+
+#sealy-header:after {
+	content:"";
+	display:block;
+	padding-bottom:76.75%;
+}
+
+#sealy-header .title {
+	background-color: black;
+	position:absolute;
+	margin-top:2%;
+	width:100%;
+	height:10%;
+	text-align: center;
+}
+
+#sealy-header .hero-link {
+	position:absolute;
+	margin-top:56%;
+	margin-left:5%;
+	text-align: center;
+}
+
+#sealy-header .hero-link img, #tempur .hero-link img, #sealy-offer .hero-link img {
+	display: block;
+	margin: 0 auto;
+}
+
+.hero-link:hover span {
+	text-decoration: underline;
+	font-weight: 700;
+}
+
+#sealy-footer {
+	background: url(../images/campaigns/sealy/2017_7_6-Sealy_Tempur-page-top_03.png) no-repeat;
+  	background-size: 100%;
+}
+
+#sealy-footer:after {
+	content:"";
+	display:block;
+	padding-bottom:24.75%;
+}
+
+#sealy-footer #offers {
+	height: 19em;
+}
+
+#tempur .hero-link {
+	position: absolute;
+	margin-left: 39%;
+	margin-top: 4%;
+	text-align: center;
+}
+
+#sealy-offer .hero-link {
+	position:absolute;
+	margin-left: 10%;
+	margin-top: 4%;
+	text-align:center;
+}
+
+#sealy-footer #guarantee {
+	text-align: center;
+
+}
+
+#sealy-footer #guarantee img {
+	min-width: 60%;
+	min-height: 60%;
+}
+
+#sealy-footer #guarantee p {
+	color:black;
+	width: 12em;
+	margin: 0 auto;
+}
+
+#sealy-footer #guarantee p span {
+	text-transform: uppercase;
+}
+
+
+
+
+
+
